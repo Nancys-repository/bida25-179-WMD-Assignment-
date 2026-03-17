@@ -72,6 +72,9 @@ main {
     margin: auto;
     text-align: center;
 }
+main {
+    flex: 1;
+}
 
 /* INTRO BOX */
 .intro-box {
