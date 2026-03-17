@@ -1,1 +1,79 @@
+body {
+font-family: Arial;
+margin:0;
+text-align:center;
+}
 
+.logo {
+font-family: 'Montserrat';
+font-size:40px;
+color:#4F7C82;
+animation: zigzag 2s;
+}
+
+@keyframes zigzag {
+0%{transform:translateX(300px);}
+50%{transform:translateX(-50px);}
+100%{transform:translateX(0);}
+}
+
+nav a {
+margin:15px;
+text-decoration:none;
+color:#4F7C82;
+font-weight:bold;
+}
+
+.intro-box {
+background:#4F7C82;
+color:white;
+padding:30px;
+border-radius:20px;
+margin:30px;
+}
+
+.main-btn {
+background:#B8E3E9;
+padding:15px;
+border-radius:10px;
+display:inline-block;
+margin:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.sub-title {
+animation: slide 1s;
+font-size:30px;
+}
+
+@keyframes slide {
+from {opacity:0; transform:translateY(-20px);}
+to {opacity:1;}
+}
+
+.faculty-container button {
+background:#B8E3E9;
+padding:15px;
+margin:10px;
+border-radius:10px;
+}
+
+.box {
+border:3px solid #4F7C82;
+margin:20px;
+padding:20px;
+}
+
+.card {
+background:#B8E3E9;
+padding:20px;
+margin:20px;
+border-radius:15px;
+}
+
+input, textarea {
+width:80%;
+padding:10px;
+margin:10px;
+}
