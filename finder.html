@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Finder</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header>
+<h1 class="sub-title">Finder</h1>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="electives.html">Electives</a>
+<a href="finder.html">Finder</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="feedback.html">Feedback</a>
+</nav>
+</header>
+
+<main>
+
+<p class="finder-text">
+Choose the elective of your choice based on your interests 🎓
+</p>
+
+<div id="courses"></div>
+
+<!-- SEARCH IF DIRECT ACCESS -->
+<div id="searchBox">
+<h3 class="interest-title">What are your interests?</h3>
+<input type="text" id="searchInput" onkeyup="searchCourses()">
+<div id="results"></div>
+</div>
+
+<a href="about.html" class="main-btn">KNOW MORE</a>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
